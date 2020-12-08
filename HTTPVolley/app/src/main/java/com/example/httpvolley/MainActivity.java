@@ -26,8 +26,8 @@ public class MainActivity extends AppCompatActivity {
     TextView tv;
     Button btn;
     EditText userId, otp;
-    String get_addr = "http://192.168.0.9:9090/admin";
-    String post_addr = "http://192.168.0.9:9090/api/rest/otp/check";
+    String get_addr = "http://www.google.co.kr";
+    String post_addr = "link";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
