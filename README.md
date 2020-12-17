@@ -20,3 +20,10 @@ implementation 'com.android.volley:volley:1.1.1'
 [AndroidMaifest.xml]<br>
 uses-permission android:name="android.permission.INTERNET" <br>
 uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"
+
+[class파일 추가]
+import com.android.volley.RequestQueue;
+
+public class AppHelper {
+    public static RequestQueue requestQueue;
+}
