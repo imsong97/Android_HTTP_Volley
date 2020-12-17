@@ -21,9 +21,8 @@ implementation 'com.android.volley:volley:1.1.1'
 uses-permission android:name="android.permission.INTERNET" <br>
 uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"
 
-[class파일 추가]
+[class파일 추가]<br>
 import com.android.volley.RequestQueue;<br>
-
 public class AppHelper {
     public static RequestQueue requestQueue;
 }
