@@ -11,3 +11,12 @@
 GET, POST방식 구현
 <br>
 GET방식은 URL만 바꿔서 사용 가능
+
+<h4><2020.12기준 설정 방법></h4>
+  
+[build.gradle]<br>
+implementation 'com.android.volley:volley:1.1.1'
+
+[AndroidMaifest.xml]<br>
+uses-permission android:name="android.permission.INTERNET" <br>
+uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"
