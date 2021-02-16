@@ -19,7 +19,8 @@ implementation 'com.android.volley:volley:1.1.1'
 
 [AndroidMaifest.xml]<br>
 uses-permission android:name="android.permission.INTERNET" <br>
-uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"
+uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" <br><br>
+application android:useCleartextTraffic="true"
 
 [class파일 추가]<br>
 import com.android.volley.RequestQueue;<br>
